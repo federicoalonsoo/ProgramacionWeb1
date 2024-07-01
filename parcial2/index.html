@@ -4,38 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FitConnect - Inicio</title>
+    <script defer src="scripts.js"></script>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
-        <h1>FitConnect</h1>
-        <nav>
+        <div class="header-logo">
+            <h1>FitConnect</h1>
+        </div>
+        <nav class="header-nav">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
-                <li><a href="feed.html">Feed de Actividades</a></li>
+                <li><a href="feed.html">Feed</a></li>
                 <li><a href="desafios.html">Desafíos</a></li>
-                <li><a href="mensajes.html">Mensajes y Grupos</a></li>
-                <li><a href="consejos.html">Consejos y Artículos</a></li>
-                <li><a href="panel_usuario.html">Panel de Usuario</a></li>
-                <li><a href="registro_login.html">Registro / Login</a></li>
+                <li><a href="consejos.html">Consejos</a></li>
+                <li><a href="panel_usuario.html">Mi perfil</a></li>
             </ul>
         </nav>
+        <div class="header-icons">
+            <ul>
+                <li><a href="mensajes.html"><a href="mensajes.html"><i class="fa-solid fa-comments icon"></i></a></li>
+                <li>
+                    <div>
+                        <a href="registro_login.html"><a href="registro_login.html"><i class="fas fa-user icon"></i></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </header>
     <main>
-        <section id="bienvenida">
+        <section class="card-inicio card-bienvenida">
             <h2>Bienvenido a FitConnect</h2>
             <p>Conéctate con otros entusiastas del fitness, sigue tus progresos y participa en desafíos emocionantes.</p>
             <p><a class="btn" href="registro_login.html">Únete Ahora</a></p>
         </section>
-        <section id="funciones">
-            <h2>Funciones Principales</h2>
-            <ul>
-                <li><a href="feed.html">Feed de Actividades</a></li>
-                <li><a href="desafios.html">Desafíos y Retos</a></li>
-                <li><a href="mensajes.html">Mensajes y Grupos</a></li>
-                <li><a href="consejos.html">Consejos y Artículos</a></li>
-                <li><a href="panel_usuario.html">Panel de Usuario</a></li>
-            </ul>
+        <section class="card-inicio card-feed">
+            <h2>Feed de actividades</h2>
+            <p>Enterate de que estuvo haciendo la comunidad.</p>
+            <p><a class="btn" href="feed.html">Ir al feed</a></p>
+        </section>
+        <section class="card-inicio card-desafios">
+            <h2>Desafíos</h2>
+            <p>Participá de nuevos retos y lleva tu potencial al máximo.</p>
+            <p><a class="btn" href="desafios.html">Ver desafíos</a></p>
+        </section>
+        <section class="card-inicio card-consejos">
+            <h2>Consejos</h2>
+            <p>Todas las semanas sumamos artículos nuevos para ayudarte a alcanzar tu máximo potencial.</p>
+            <p><a class="btn" href="consejos.html">Ver artículos</a></p>
         </section>
     </main>
     <footer>

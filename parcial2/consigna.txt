@@ -1,0 +1,12 @@
+Proyecto 17 / FitConnect (Comunidad de fitness) - Red Social para Entusiastas del Fitness
+Páginas a desarrollar:
+Página de Registro y Login: Registro de nuevos usuarios y acceso para usuarios registrados.
+Panel de Usuario: Gestión de perfil, logros y seguimiento de actividades.
+Página de Inicio: Visión general de la comunidad y acceso a funciones principales.
+Página de Feed de Actividades: Actualizaciones y logros compartidos por otros usuarios.
+Página de Desafíos y Retos: Participación en desafíos grupales y seguimiento de progreso.
+Página de Mensajes y Grupos: Comunicación con otros usuarios y grupos de interés.
+Página de Consejos y Artículos: Contenido sobre fitness, salud y bienestar.
+Uso:
+Los usuarios se registran y acceden a su panel de usuario.
+Desde el panel, gestionan sus logros, participan en desafíos y se comunican con otros entusiastas del fitness.

@@ -8,36 +8,77 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
     line-height: 1.6;
 }
 
 header {
     background-color: #333;
     color: #fff;
-    padding: 1em 0;
-    text-align: center;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header nav ul {
+.header-logo h1{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.header-nav ul {
     list-style: none;
     padding: 0;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
-header nav ul li {
+.header-nav ul li {
     margin: 0 1em;
 }
 
-header nav ul li a {
+.header-nav ul li a{
     color: #fff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
-header nav ul li a:hover {
-    color: #ddd;
+.header-nav ul li a:hover {
+    color:#ddd;
+}
+
+.header-icons{
+    width: 4em;
+}
+
+.header-icons ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header-icons ul li {
+    margin: 0;
+}
+
+.header-icons ul li a{
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.header-icons ul li a:hover {
+    color:#ddd;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
 }
 
 main {
@@ -94,7 +135,6 @@ footer {
     padding: 1em 0;
     background-color: #333;
     color: #fff;
-    position: fixed;
     width: 100%;
     bottom: 0;
 }
@@ -111,28 +151,47 @@ footer {
     color: #dc3545;
 }
 
-#bienvenida {
+.card-inicio {
     text-align: center;
-    padding: 2em 0;
-    background-image: url('bienvenida.jpg');
-    background-size: cover;
-    background-position: center;
+    padding: 2em;
     color: #fff;
-    padding: 4em;
+    margin-bottom: 2em;
+    border-radius: 8px;
 }
 
-#bienvenida p {
+.card-inicio p {
     font-size: 1.2em;
     margin-bottom: 1em;
 }
 
-#funciones ul {
-    list-style: none;
-    padding: 0;
+.card-bienvenida{
+    background-image: url('bienvenida.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-#funciones li {
-    margin: 1em 0;
+.card-feed, .card-desafios, .card-consejos{
+    display: none;
+    background-size: cover;
+}
+.card-feed{
+    background-image: url('feed.jpg');
+    background-size: cover;
+    background-position: center bottom 34%;
+}
+.card-desafios{
+    background-image: url('desafios.jpg');
+    background-size: cover;
+    background-position: center bottom 42%;
+}
+.card-consejos{
+    background-image: url('consejos.jpg');
+    background-size: cover;
+    background-position: center bottom 35%;
 }
 
 #perfil {

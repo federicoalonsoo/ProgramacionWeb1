@@ -4,6 +4,10 @@ document.addEventListener("DOMContentLoaded", () => {
     const passwordMessage = document.getElementById("passwordMessage");
     const loginMessage = document.getElementById("loginMessage");
 
+    if (localStorage.getItem('userLoggedIn')) {
+        mostrarContenidoRegistrado();
+    }
+    
     registroForm.addEventListener("submit", (event) => {
         event.preventDefault();
         const nombre = document.getElementById("nombre").value;
@@ -24,14 +28,16 @@ document.addEventListener("DOMContentLoaded", () => {
         }
 
         if (!isValidPassword(password)) {
-            passwordMessage.textContent = "La contraseña debe tener al menos 8 caracteres, incluir una letra mayúscula, una letra minúscula, un número y un símbolo.";
+            passwordMessage.textContent = "La contraseña debe tener al menos 8 caracteres, incluir una letra mayúscula, una letra minúscula, un número y un símbolo (@$!%*?&).";
             passwordMessage.style.color = "red";
             return;
         }
 
-        // Simulación de envío de datos
         passwordMessage.textContent = "Registro exitoso. (Simulado)";
         passwordMessage.style.color = "green";
+
+        localStorage.setItem('userLoggedIn', true);
+        setTimeout (mostrarContenidoRegistrado, 1000);
     });
 
     loginForm.addEventListener("submit", (event) => {
@@ -45,13 +51,22 @@ document.addEventListener("DOMContentLoaded", () => {
             return;
         }
 
-        // Simulación de autenticación
         loginMessage.textContent = "Inicio de sesión exitoso. (Simulado)";
         loginMessage.style.color = "green";
+
+        localStorage.setItem('userLoggedIn', true);
+        setTimeout (mostrarContenidoRegistrado, 1000);
     });
 
     function isValidPassword(password) {
         const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
         return regex.test(password);
+    }
+
+    function mostrarContenidoRegistrado() {
+        document.querySelector('.card-bienvenida').style.display='none';
+        document.querySelector('.card-feed').style.display='block';
+        document.querySelector('.card-desafios').style.display='block';
+        document.querySelector('.card-consejos').style.display='block';
     }
 });
