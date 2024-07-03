@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>FitConnect - panel de usuario</title>
+        <title>FitConnect - login</title>
         <script defer src="scripts.js"></script>
         <link rel="stylesheet" href="styles.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
@@ -34,32 +34,18 @@
         </div>
     </header>
     <main>
-        <section id="perfil">
-            <h2>Mi Perfil</h2>
-            <div class="perfil-imagen">
-                <img src="perfil.jpg" alt="Foto de perfil">
-            </div>
-            <p id="nombreUsuario">Nombre no disponible</p>
-            <p id="emailUsuario">Email no disponible</p>
-            <button>Editar Perfil</button>
-        </section>
-        <section id="notificaciones">
-            <h2>Notificaciones</h2>
-            <ul>
-                <li>¡Nuevo desafío disponible!</li>
-                <li>Actualización en tus actividades</li>
-            </ul>
-        </section>
-        <section id="logros">
-            <h2>Mis Logros</h2>
-            <ul>
-                <li>5km corriendo</li>
-                <li>10 días consecutivos de entrenamiento</li>
-            </ul>
-        </section>
-        <section id="actividades">
-            <h2>Seguimiento de Actividades</h2>
-            <p>Última actividad: 5km corriendo - 20/04/2024</p>
+        <section id="login">
+            <h2>Login</h2>
+            <form id="loginForm" action="#" method="post">
+                <label for="email_login">Email:</label>
+                <input type="email" id="email_login" name="email_login" required>
+                <label for="password_login">Contraseña:</label>
+                <input type="password" id="password_login" name="password_login" required>
+                <button type="submit">Iniciar Sesión</button>
+                <p id="loginMessage" class="security-message"></p>
+            </form>
+            <p><a href="#">¿Olvidaste tu contraseña?</a></p>
+            <p><a href="registro.html" id="register-link">No tenes cuenta? Registrate</a></p>
         </section>
     </main>
     <footer>
@@ -67,4 +53,3 @@
     </footer>
 </body>
 </html>
-

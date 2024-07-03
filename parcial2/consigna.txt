@@ -10,3 +10,10 @@ Página de Consejos y Artículos: Contenido sobre fitness, salud y bienestar.
 Uso:
 Los usuarios se registran y acceden a su panel de usuario.
 Desde el panel, gestionan sus logros, participan en desafíos y se comunican con otros entusiastas del fitness.
+
+
+Ver
+Flexbox: https://flexboxfroggy.com/#es
+Grid
+https://www.youtube.com/watch?v=T-slCsOrLcc
+https://cssgrid.io/
