@@ -1,0 +1,34 @@
+FINAL:
+Para la entrega final de Programación Web 1, se requiere que realicen mejoras
+sustanciales en la página web desarrollada durante el curso. Es fundamental que
+todas las páginas funcionen correctamente, tanto en versiones de escritorio
+como en dispositivos móviles, considerando meticulosamente la experiencia del
+usuario (UX).
+
+Deben enfocarse en asegurar que todas las funcionalidades operen sin errores,
+implementando caminos alternativos para manejar posibles errores y
+garantizando una navegación fluida y lógica para el usuario.
+
+El diseño de la página debe ser completamente responsivo, adaptándose de
+manera eficiente a diferentes tamaños de pantalla mediante el uso de media
+queries y otras técnicas de diseño adaptativo. Esto es esencial para proporcionar
+una experiencia de usuario consistente y cómoda en cualquier dispositivo.
+
+Aplicarán principios de UX design para mejorar la usabilidad y accesibilidad del
+sitio web. Esto incluye aspectos como la legibilidad del texto, el contraste
+adecuado, la claridad de la navegación y la disposición ergonómica de los
+elementos interactivos.
+
+Además de la funcionalidad, se espera que realicen ajustes estéticos y visuales
+que mejoren la apariencia del sitio web, manteniendo coherencia con la
+identidad visual de la marca o el proyecto.
+
+Es fundamental realizar pruebas exhaustivas para identificar y corregir cualquier
+problema de funcionamiento, asegurando que todas las nuevas características y
+funcionalidades adicionadas durante el desarrollo operen correctamente en todas
+las plataformas.
+
+La entrega incluirá la versión mejorada y optimizada del sitio web, acompañada
+de un informe detallado que explique los cambios implementados y los principios
+de UX design aplicados. Se solicitarán capturas de pantalla que ilustren el
+funcionamiento y diseño del sitio en ambas versiones, web y móvil.

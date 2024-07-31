@@ -1,0 +1,13 @@
+-Se agregó menu hamburguesa en version Mobile.
+
+-Optimizacion de imagenes para carga más rapida.
+
+-Optimizacion de UX:
+Mayor legibilidad del texto.
+Contraste adecuado.
+Mayor claridad de la navegación.
+Disposición ergonómica de los elementos interactivos.
+
+-Se hizo test de todas las partes interactivas del Sitio y de la visualización en dispoitivos desktop y mobile.
+
+-Capturas de pantalla de todas las paginas del Sitio en carpeta Capturas

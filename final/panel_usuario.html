@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>FitConnect - panel de usuario</title>
+        <script defer src="scripts.js"></script>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+<body>
+    <header>
+        <div class="header-logo">
+            <h1>FitConnect</h1>
+        </div>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="header-nav">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="feed.html">Feed</a></li>
+                <li><a href="desafios.html">Desafíos</a></li>
+                <li><a href="consejos.html">Consejos</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <div class="dropdown">
+                <button class="dropbtn"><i class="fas fa-user login-icon"></i></button>
+                <div class="dropdown-content" id="dropdown-content">
+                    <a href="login.html" id="login-link">Iniciar sesión</a>
+                    <a href="panel_usuario.html" id="profile-link">Mi perfil</a>
+                    <a href="mensajes.html" id="messages-link">Mensajes</a>
+                    <a href="#" id="logout-link">Cerrar sesión</a>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="perfil">
+            <h2>Mi Perfil</h2>
+            <div class="perfil-imagen">
+                <img src="perfil.jpg" alt="Foto de perfil">
+            </div>
+        </section>
+        <section class="sectionPanel" id="notificaciones">
+            <h2>Notificaciones</h2>
+            <ul>
+                <li>¡Nuevo desafío disponible!</li>
+                <li>Actualización en tus actividades</li>
+            </ul>
+        </section>
+        <section class="sectionPanel" id="logros">
+            <h2>Mis Logros</h2>
+            <ul>
+                <li>5km corriendo</li>
+                <li>10 días consecutivos de entrenamiento</li>
+            </ul>
+        </section>
+        <section class="sectionPanel" id="actividades">
+            <h2>Seguimiento de Actividades</h2>
+            <p>Última actividad: 5km corriendo - 20/04/2024</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 FitConnect. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
+
